@@ -39,6 +39,7 @@ public class MainFragment extends Fragment {
         display();
         return view;
     }
+
     void readFiles() {
         mFileList = new ArrayList<>();
         //    mNameList=new ArrayList<>();
@@ -63,8 +64,8 @@ public class MainFragment extends Fragment {
             }
             cursor.close();
         }
-
     }
+
     public static int getScreenWidth() {
         return Resources.getSystem().getDisplayMetrics().widthPixels;
     }
